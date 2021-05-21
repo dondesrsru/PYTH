@@ -9,3 +9,7 @@ for num in range(x,y + 1):
                break  
        else:  
            print(num)  
+if x>y:
+    print('second number is lesser than first number. please rewrite the values in ascending order')
+if x and y <=0:
+    print('there are no prime numbers')
